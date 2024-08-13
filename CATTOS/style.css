@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+header{
+  width: auto;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+}
+
+header h1 {
+  font-size: 3em;
+  color: white;
+  font-family: "Shadows Into Light";
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: space-evenly;
+  background-color: rgb(60, 61, 61);
+}
+nav a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-family: "Quicksand";
+}
+nav a:nth-child(2){
+  background-color: rgb(81, 85, 85);
+}
+nav a:hover{
+background-color: rgba(255, 255, 255, 0.271);
+color: rgb(0, 0, 0);
+transition: 0.2s ease-out;
+}
+
+.banner{
+  width: 100%;
+  height: auto;
+  background-color: rgb(98, 72, 72);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-weight: 100;
+}
+.banner div {
+  background-color: rgba(41, 40, 40, 0.316);
+  border-radius: 1rem;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 2rem;
+  width: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.info h1 {
+  font-family: "Matemasie";
+}
+
+.info p {
+  font-weight: bold;
+  font-family: "Shadows Into Light";
+}
+.info:nth-child(2){
+  color: rgb(255, 128, 0);
+}
+.info:nth-child(3){
+  color: rgb(255, 255, 255);
+}
+.info:nth-child(4){
+  color: rgb(255, 128, 0);
+}
+.info img {
+  width: 23rem;
+  height: 30rem;
+  transition: 0.3s ease-in-out;
+  border-radius: 2rem;
+}
+.info img:hover{
+  transform: scale(1.1);
+}
